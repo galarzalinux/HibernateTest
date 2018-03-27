@@ -220,6 +220,6 @@ public class HibernateMainDB {
 	public static void main(String[] args) {
 		//Before runing the java program make sure Postgres is Runing
 		//check Employee DB pgsql.txt for smal reference
-		//new HibernateMainDB().menu();
+		new HibernateMainDB().menu();
 	}
 }

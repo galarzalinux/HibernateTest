@@ -61,13 +61,11 @@ public class AppTest{
 		} catch (Exception e) {
 			System.out.println("Error="+e);
 		}
-
 	}
 
 	@After
 	public void closing() {
 		s.close();
 	}
-
 
 }

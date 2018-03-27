@@ -1,3 +1,4 @@
+#Windows
 Console 1
 initdb -U 1459756 -D TestHibernate -W
 postgres -D TestHibernate
@@ -6,6 +7,16 @@ Console 2
 cmd /c chcp 1252
 createdb -U 1459756 TestHibernate
 psql -U 1459756 TestHibernate
+
+#Linux
+sudo apt install postgresql libpq-dev postgresql-client 
+postgresql-client-common -y
+
+sudo su - postgres
+createuser pi -P --interactive
+$ psql
+> create database MyDataBase;
+$ psql MyDataBase
 
 create table employee(idemp int,nombre varchar(30),apellido varchar(30));
 alter table employee add primary key (idemp);
