@@ -18,5 +18,11 @@ $ psql
 > create database MyDataBase;
 $ psql MyDataBase
 
+Modify the files on this path = /etc/postgresql/9.6/main
+postgressql.conf 
+	*seek and modify to this -> listen_address='*'
+pg_hba.conf
+	*seek and modify to this -> host    all             all             my.public.ip.address/0               trust 
+
 create table employee(idemp int,nombre varchar(30),apellido varchar(30));
 alter table employee add primary key (idemp);

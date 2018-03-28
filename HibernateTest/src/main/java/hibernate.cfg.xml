@@ -8,9 +8,9 @@
 <hibernate-configuration>
 	<session-factory>
 
-		<property name="connection.url">jdbc:postgresql://187.244.170.149:8080/hibernate</property> <!-- BD Mane -->
+		<property name="connection.url">jdbc:postgresql://187.244.170.149/hibernate</property> <!-- BD Mane -->
 		<property name="connection.driver_class">org.postgresql.Driver</property> <!-- DB Driver -->
-		<property name="connection.username">pi</property> <!-- DB User -->
+		<property name="connection.username">postgres</property> <!-- DB User -->
 		<property name="connection.password">galarza</property> <!-- DB Password -->
 
 		<property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property> <!-- DB Dialect -->
