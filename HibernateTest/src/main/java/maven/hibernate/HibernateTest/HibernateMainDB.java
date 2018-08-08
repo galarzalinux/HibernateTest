@@ -218,8 +218,8 @@ public class HibernateMainDB {
 
 	/**************************** M A I N ***********************************/
 	public static void main(String[] args) {
-		//Before runing the java program make sure Postgres is Runing
-		//check Employee DB pgsql.txt for smal reference
+		//Before running the java program make sure Postgress is Running
+		//check Employee DB pgsql.txt for small reference
 		new HibernateMainDB().menu();
 	}
 }
